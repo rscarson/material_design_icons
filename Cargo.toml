@@ -11,6 +11,10 @@ keywords = ["font", "icon", "iced", "icons", "fonts"]
 categories = ["api_bindings", "text_processing", "parsing_tools", "gui"]
 readme = "readme.md"
 
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
 [features]
 default = []
 iced = ["dep:iced"]

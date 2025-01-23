@@ -15,6 +15,7 @@ macro_rules! impl_icon {
         }
 
         #[cfg(feature = "iced")]
+        #[cfg_attr(docsrs, doc(cfg(feature = "iced")))]
         impl<'a, Message> From<$name> for iced::Element<'a, Message> {
             fn from(value: $name) -> Self {
                 value
@@ -26,6 +27,7 @@ macro_rules! impl_icon {
         impl $name {
             /// Convert the icon to an iced Text widget
             #[cfg(feature = "iced")]
+            #[cfg_attr(docsrs, doc(cfg(feature = "iced")))]
             pub fn into_text<'a, Theme>(
                 self,
                 font_size: impl Into<iced::Pixels>,
