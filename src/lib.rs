@@ -1,5 +1,5 @@
 //! # Google Material Design Icons
-//! ## Wrapper for the Google Material Design Icons font.
+//! ## Wrapper for the Google Material Design Icons font
 //!
 //! [![Crates.io](https://img.shields.io/crates/v/material_design_icons.svg)](https://crates.io/crates/material_design_icons/)
 //! [![Build Status](https://github.com/rscarson/material_design_icons/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/rscarson/material_design_icons/actions?query=branch%3Amaster)

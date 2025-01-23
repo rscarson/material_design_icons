@@ -1,11 +1,11 @@
 [package]
 name = "material_design_icons"
 authors = ["@rscarson"]
-description = "Flexible linear interpolator for Rust"
+description = "Wrapper for the Google Material Design Icons font"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 version = "0.1.0"
-repository = "https://github.com/rscarson/lineic"
+repository = "https://github.com/rscarson/material_design_icons"
 
 keywords = ["font", "icon", "iced", "icons", "fonts"]
 categories = ["api_bindings", "text_processing", "parsing_tools", "gui"]
