@@ -43,7 +43,7 @@ pub fn codegen_file(fonts: &[String]) -> String {
     ];
 
     let fonts = fonts.join("\n\n");
-    [HEADERS.join("\n"), fonts].join("\n")
+    [HEADERS.join("\n"), fonts].join("\n") + "\n"
 }
 
 /// Generate the code for a font
